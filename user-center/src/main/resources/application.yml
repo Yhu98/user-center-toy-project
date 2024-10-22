@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-center
+# DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hayham
+    username: root
+    password: HYX!Aus1814
+server:
+  port: 8080
